@@ -1,36 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Baumans');
 
 /* Variables */
+$font-family: 'Baumans', cursive;
+$font-family1: 'Rajdhani', sans-serif;
 
-$font-family: 'Rajdhani', sans-serif;
+$background-color: rgb(50, 50, 44);
+$text-orange: rgb(201, 125, 48);
+$text-blue: rgb(116, 149, 162);
+
+// Import Partials
+@import './Components/Header/Header';
+@import './Components/Footer/Footer';
 
 .App {
   text-align: center;
 }
 
-.App-logo {
-  /* animation: App-logo-spin infinite 10s linear; */
-  height: 100px;
-}
 
-.App-header {
-  background-color: rgb(50, 50, 44);
-  height: 150px;
-  padding: 40px;
-  font-family: $font-family;
-
-  color: rgb(201, 125, 48);
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
