@@ -18,26 +18,54 @@
           // animation: App-logo-spin infinite 10s linear;
           height: 50px;
         }
+
+      .App-title {
+        font-family: $font-family;
+        font-size: 1.5em;
+        color: $text-orange;
+      }
     }
 
     .hamburger-wrapper {
       display: flex;
 
       .hamburgerBtn {
+        margin-bottom: -10px;
         font-size: 2.5em;
         border: none;
         cursor: pointer;
         background: transparent;
         color: $text-orange;
       }
+
+      .slide-mobile {
+        background-color: $background-color;
+        width: 100vw;
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: -2000px;
+        left: 0px;
+        transition: .15 ease-in-out;
+        opacity: 0;
+        transition-property: opacity;
+        z-index: -1;
+
+       }
+
+       .slide-mobile-position {
+            top: 100px;
+            left: 0px;
+            opacity: 1;
+            z-index: 50;
+       }
     }
 }
 
-.App-title {
-    font-family: $font-family;
-    font-size: 1.5em;
-    color: $text-orange;
-  }
+
   
   
   // @keyframes App-logo-spin {
