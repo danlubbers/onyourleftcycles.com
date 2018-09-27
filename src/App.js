@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {Helmet} from "react-helmet";
+import routes from './routes';
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
 
@@ -22,6 +23,9 @@ class App extends Component {
         <div className='header-app'>
           <Header />
         </div>
+
+          {routes}
+
         <div className='footer-app'>
           <Footer />
         </div>

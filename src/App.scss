@@ -12,6 +12,7 @@ $text-blue: rgb(116, 149, 162);
 // Import Partials
 @import './Components/Header/Header';
 @import './Components/Footer/Footer';
+@import './Components/Home/Home';
 
 .entire-app-wrapper {
   text-align: center;
