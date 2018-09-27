@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+/* Variables */
+
+$font-family: 'Rajdhani', sans-serif;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 10s linear; */
+  height: 100px;
+}
+
+.App-header {
+  background-color: rgb(50, 50, 44);
+  height: 150px;
+  padding: 40px;
+  font-family: $font-family;
+
+  color: rgb(201, 125, 48);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
