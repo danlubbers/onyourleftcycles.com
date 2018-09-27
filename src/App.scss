@@ -7,20 +7,21 @@ $font-family1: 'Rajdhani', sans-serif;
 
 $background-color: rgb(50, 50, 44);
 $text-orange: rgb(201, 125, 48);
+$text-orange-hover: rgb(255, 158, 60);
 $text-blue: rgb(116, 149, 162);
+$text-white:rgb(194, 194, 194);
 
 // Import Partials
 @import './Components/Header/Header';
 @import './Components/Footer/Footer';
 @import './Components/Home/Home';
 
+body {
+  background-color: $background-color;
+}
+
 .entire-app-wrapper {
   text-align: center;
-
-  // .header-app {
-  //   text-align: center;
-  // }
-
 }
 
 
