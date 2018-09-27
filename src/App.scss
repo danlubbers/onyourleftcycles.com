@@ -13,8 +13,17 @@ $text-blue: rgb(116, 149, 162);
 @import './Components/Header/Header';
 @import './Components/Footer/Footer';
 
-.App {
+.entire-app-wrapper {
   text-align: center;
+
+  // .header-app {
+  //   text-align: center;
+  // }
+
 }
+
+
+
+
 
 
