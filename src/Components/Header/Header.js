@@ -33,6 +33,15 @@ class Header extends Component {
                     <div className='hamburger-wrapper'>
                         <button className='hamburgerBtn' onClick={this.handleClickMobile}><FaBars/></button>
                         <div className={mobileDropDown}>
+                            <ul>
+                                <li>Products</li>
+                                <li>Services</li>
+                                <li>Rental</li>
+                                <li>Sale</li>
+                                <li>About</li>
+                                <li>Staff</li>
+                                <li>Contact US</li>
+                            </ul>
 
                         </div>
                     </div>

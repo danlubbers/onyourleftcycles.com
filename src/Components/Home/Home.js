@@ -23,7 +23,7 @@ export default function Home() {
             <section className='about-us'>
                 <h1>About Us</h1>
                 <p>
-                On Your Left Cycles is a customer service oriented bicycle shop located at 625 Baxter Avenue in Louisville, Kentucky.. We are a BICYCLE SHOP specializing in custom bikes or bikes for any type of rider, hand built wheels, all things bmx, and hard to find parts along with your every day items. Stop by today to see the difference. Don't forget to stay updated by following us on Social Media below. 
+                On Your Left Cycles is a customer service oriented bicycle shop located at 625 Baxter Avenue in Louisville, Kentucky. We are a BICYCLE SHOP specializing in custom bikes or bikes for any type of rider, hand built wheels, all things bmx, and hard to find parts along with your every day items. Stop by today to see the difference. Don't forget to stay updated by following us on Social Media located below. 
                 </p>
             </section>
             
