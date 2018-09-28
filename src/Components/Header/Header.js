@@ -33,13 +33,24 @@ class Header extends Component {
                     <div className='hamburger-wrapper'>
                         <button className='hamburgerBtn' onClick={this.handleClickMobile}><FaBars/></button>
                         <div className={mobileDropDown}>
-                            <ul>
+                            <ul className='mobile-content-container'>
+                            <div className='horizontal-line'></div>
                                 <li>Products</li>
+                            <div className='horizontal-line'></div>
                                 <li>Services</li>
+                            <div className='horizontal-line'></div>
                                 <li>Rental</li>
+                            <div className='horizontal-line'></div>
+                                <li>Custom Builds</li>
+                            <div className='horizontal-line'></div>       
                                 <li>Sale</li>
-                                <li>About</li>
+                            <div className='horizontal-line'></div>
+                                <li>Blog</li>
+                            <div className='horizontal-line'></div>
+                                <Link to='/about'><li>About</li></Link>
+                            <div className='horizontal-line'></div>
                                 <li>Staff</li>
+                            <div className='horizontal-line'></div>
                                 <li>Contact US</li>
                             </ul>
 

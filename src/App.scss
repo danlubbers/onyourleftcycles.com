@@ -15,14 +15,34 @@ $text-white:rgb(194, 194, 194);
 @import './Components/Header/Header';
 @import './Components/Footer/Footer';
 @import './Components/Home/Home';
+@import './Components/About/About';
 
 body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: $background-color;
+  // background-color: rgb(96, 131, 96);
 }
 
 .entire-app-wrapper {
   text-align: center;
+
 }
+    .footer-app-wrapper {
+      width: 100vw;
+      height: 100px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      position: relative;
+      margin-top: 75px;
+      background-color: $background-color;
+    }
+
+
+
 
 
 

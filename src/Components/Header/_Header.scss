@@ -63,6 +63,29 @@
             opacity: 1;
             z-index: 50;
        }
+
+       .mobile-content-container {
+        // margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+          li {
+            // text-transform: uppercase;
+            font-size: 2em;
+            font-family: $font-family1;
+            color: $text-white;
+            
+          }
+
+          .horizontal-line{
+            width: 95vw;
+            border-bottom: 1px solid #999;
+            margin: 15px 0px 15px 0px;
+          }
+
+       }
     }
 }
 

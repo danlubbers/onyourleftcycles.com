@@ -3,7 +3,7 @@ import storefront from '../../assets/images/oylc-store-front.jpg';
 
 export default function Home() {
     return(
-        <div className='home-wrapper'>
+        <content className='home-wrapper'>
             <div className='home-image'>
                 <img className='store-front-image' src={storefront} alt=''/ >
             </div>
@@ -27,6 +27,6 @@ export default function Home() {
                 </p>
             </section>
             
-        </div>
+        </content>
     )
 }
