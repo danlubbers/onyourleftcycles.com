@@ -44,13 +44,18 @@ footer {
             }
 
             .copyright-wrapper{
+
+                .oylc-copyright {
+                font-family: $font-family;
+                color: $text-blue-accessibility;
+                }
         
                 .danlubbers, a{
-                    color: rgb(125, 125, 125);
+                    color: $text-grey-accessibility;
         
                 }
                 .danlubbers:hover {
-                    color: rgb(150, 150, 150);
+                    color: rgb(220, 220, 220);
                     transition: .35s;
                 }
             }

@@ -37,11 +37,29 @@
             line-height: 20px; 
         }
 
+        .text-overlay {
+
+            .drew-text {
+                font-size: 1.4em;
+                color: $text-orange;
+                margin-top: 20px;
+            }
+        }
+
         .drew-image {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
             
+        }
+
+        .text-overlay {
+
+            .derek-text {
+                font-size: 1.4em;
+                color: $text-orange;
+                margin-top: 20px;
+            }
         }
 
         .derek-image {

@@ -12,8 +12,15 @@ export default function About() {
             </section>
             <section className='shop-owners'>
                 <h1>Shop Owners</h1>
+                <div className='text-overlay'>
+                    <h1 className='drew-text'>Drew Hartman</h1>
+                </div>
                 
                 <img className='drew-image' src={Drew} alt='Drew Hartman' />
+
+                 <div className='text-overlay'>
+                    <h1 className='derek-text'>Derek Fetco</h1>
+                </div>
 
                 <img className='derek-image' src={Derek} alt='Derek Fetco' />
 
