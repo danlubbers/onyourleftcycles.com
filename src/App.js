@@ -20,17 +20,18 @@ class App extends Component {
               <link rel="alternate" hreflang="en" href="http://onyourleftcycles.net" />
               <link rel="canonical" href="http://onyourleftcycles.net" />
           </Helmet>
-            <header className='header-app-wrapper'>
+          
+          <header className='header-app-wrapper'>
               <Header />
-            </header>
+          </header>
 
-            <content>
+          <main>
               {routes}
-            </content>
+          </main>
 
-            <footer className='footer-app-wrapper'>
+          <footer className='footer-app-wrapper'>
               <Footer />
-            </footer>
+          </footer>
       </div>
     );
   }

@@ -1,0 +1,27 @@
+.services-wrapper {
+    width: 100vw;
+    height: 100vh;
+    // background-color: red;
+
+        .services {
+            margin-top: 25px;
+
+        h1 {
+            margin: 10px;
+            text-align: center;
+            font-size: 1.8em;
+            color: $text-blue;
+            font: $font-family;
+            line-height: 20px;
+        }
+
+        p {
+            @extend h1;
+            text-align: left;
+            font-size: 1.2em;
+            color: $text-white;
+            font-family: $font-family1;
+            letter-spacing: .5px;
+        }
+    }
+}

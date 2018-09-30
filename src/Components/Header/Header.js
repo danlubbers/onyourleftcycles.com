@@ -38,7 +38,7 @@ class Header extends Component {
 
                     <div className='hamburger-wrapper'>
                         <button aria-label='hamburger-menu' className='hamburgerBtn' onClick={this.handleClickMobile}><FaBars/></button>
-                        <div className={mobileDropDown}>
+                        <nav className={mobileDropDown}>
                             <ul className='mobile-content-container'>
                                 <div className='horizontal-line'></div>
                                     <li>Products</li>
@@ -53,16 +53,13 @@ class Header extends Component {
                                 <div className='horizontal-line'></div>
                                     <li>Blog</li>
                                 <div className='horizontal-line'></div>
-                                    <Link to='/about' onClick={this.handleClickMobile}><li>About</li></Link>
-                                <div className='horizontal-line'></div>
-                                    <li>Staff</li>
+                                    <Link to='/about' onClick={this.handleClickMobile}><li>About Us</li></Link>
                                 <div className='horizontal-line'></div>
                                     <li>Contact US</li>
                             </ul>
 
-                        </div>
+                        </nav>
                     </div>
-
                 </header>
           </div>
         )
