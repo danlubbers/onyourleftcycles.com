@@ -1,0 +1,49 @@
+.contact-wrapper {
+    width: 100vw;
+    height: 100vh;
+
+    .contact {
+        margin-top: 25px;
+
+        h1 {
+            margin: 10px;
+            text-align: center;
+            font-size: 1.8em;
+            color: $text-blue;
+            font-family: $font-family;
+            line-height: 20px;
+
+        }
+
+        ul {
+            margin-top: 25px;
+
+            li {
+                    @extend h1;
+                    text-align: left;
+                    font-size: 1.2em;
+                    color: $text-white;
+                    font-family: $font-family1;
+                    letter-spacing: .5px;
+                    line-height: 25px;
+
+                    .contact-title {
+                        font-size: 1.2em;
+                        color: $text-blue;
+                    }
+                }
+        }
+
+        h5 {
+            margin: 25px;
+            text-align: center;
+            font-size: 1em;
+            color: $text-white;
+            font-family: $font-family1;
+            letter-spacing: .5px;
+            line-height: 20px;
+        }
+    
+    }
+
+}

@@ -35,6 +35,7 @@
             font: $font-family;
             color: $text-white;
         }
+
         span {
             color: $text-blue;
         }
@@ -51,6 +52,7 @@
             font: $font-family;
             color: $text-blue;
         }
+
         p {
             @extend h1;
             font-family: $font-family1;
@@ -63,5 +65,14 @@
     .google-map {
         width: 100vw;
         height: 100vh;
+
+        h1 {
+            margin-bottom: 5px;
+            text-align: center;
+            font-size: 1.2em;
+            line-height: 20px;
+            font: $font-family;
+            color: $text-blue;
+        }
     }
 }

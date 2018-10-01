@@ -55,7 +55,7 @@ class Header extends Component {
                                 <div className='horizontal-line'></div>
                                     <Link to='/about' onClick={this.handleClickMobile}><li>About Us</li></Link>
                                 <div className='horizontal-line'></div>
-                                    <li>Contact US</li>
+                                    <Link to='/contact' onClick={this.handleClickMobile}><li>Contact US</li></Link>
                             </ul>
 
                         </nav>

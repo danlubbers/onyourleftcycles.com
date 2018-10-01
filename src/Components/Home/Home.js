@@ -28,6 +28,7 @@ export default function Home() {
                 </p>
             </section>  
             <section className='google-map'>
+                <h1>Location</h1>
                 <GoogleMap />    
             </section>  
         </main>
