@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../assets/images/oylc-gear-logo.png';
+import logo from '../../assets/images/oylc-gear-logo-low-res.png';
 import { Link } from 'react-router-dom';
 
 import { FaBars } from 'react-icons/fa';

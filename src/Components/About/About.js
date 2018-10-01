@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Drew from '../../assets/images/drew.jpg';
-import Derek from '../../assets/images/derek.jpg';
+import Drew from '../../assets/images/drew-low-res.jpg';
+import Derek from '../../assets/images/derek-low-res.jpg';
 
 export default function About() {
     return(
