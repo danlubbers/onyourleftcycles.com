@@ -1,0 +1,23 @@
+.blog-wrapper {
+    width: 100vw;
+    height: 100vh;
+
+    h1 {
+        margin: 10px;
+        text-align: center;
+        font-size: 1.8em;
+        color: $text-blue;
+        font-family: $font-family;
+        line-height: 20px;
+    }
+
+    pre {
+        @extend h1;
+        text-align: left;
+        font-size: 1.2em;
+        color: $text-white;
+        font-family: $font-family1;
+        letter-spacing: .5px;
+        line-height: 25px;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import storefront from '../../assets/images/oylc-store-front.jpg';
-// import GoogleMap from '../GoogleMaps/GoogleMaps';
+import GoogleMap from '../GoogleMaps/GoogleMaps';
 
 export default function Home() {
     return(
@@ -29,7 +29,7 @@ export default function Home() {
             </section>  
             <section className='google-map'>
                 <h1>Location</h1>
-                {/* <GoogleMap />     */}
+                <GoogleMap />    
             </section>  
         </main>
     )
