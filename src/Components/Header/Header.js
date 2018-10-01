@@ -43,7 +43,7 @@ class Header extends Component {
                                 <div className='horizontal-line'></div>
                                     <li>Products</li>
                                 <div className='horizontal-line'></div>
-                                    <li>Services</li>
+                                    <Link to='/services' onClick={this.handleClickMobile}><li>Services</li></Link>
                                 <div className='horizontal-line'></div>
                                     <li>Rental</li>
                                 <div className='horizontal-line'></div>
