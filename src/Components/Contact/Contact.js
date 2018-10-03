@@ -1,13 +1,16 @@
 import React from 'react';
 
 export default function Contact() {
+
+    let email = 'info@onyourleftcycles.net';
+
     return(
         <main className='contact-wrapper'>
             <section className='contact'>
                 <h1>Contact Us</h1>
                     <ul>
                         <li>
-                            <span className='contact-title'>Email:</span><span> info@onyourleftcycles.net</span>
+                            <span className='contact-title'>Email:</span><a className='email' href={`mailto:${email}`}><span> info@onyourleftcycles.net</span></a>
                         </li>
                         <li>
                             <span className='contact-title'>Phone:</span><span> 502.749.6775</span>

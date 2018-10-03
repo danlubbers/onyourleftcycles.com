@@ -23,14 +23,41 @@ class Blog extends Component {
         }
 
         render() {
+
+            let blogArray = this.state.posts.map(({fields}, i) => {
+                
+                return <pre key={i}>
+
+                    <h1 className='contentful-title'>{fields.title}</h1>
+
+                    <h1 className='contentful-description'>
+                    
+                    {/* {JSON.stringify(fields.content, null, 2)} */}
+                    
+                    {fields.content}
+                    </h1>
+
+                </pre>
+            });
+
+            let imagesArray = this.state.posts.map(({fields}, i) => {
+                // console.log(fields)
+                
+                return <div key={i}>
+                    
+                    {<img className='contentful-image' src={fields.image.fields.file.url} alt=''/>}
+
+                    
+                </div>
+            });
+            
+
             return (
                 <content className='blog-wrapper'>
                     <h1>Blog</h1>
-                    <br />
-                    { this.state.posts.map(({fields}, i) => 
-                    <pre key={i}>{JSON.stringify(fields, null, 2)}</pre>
-                    
-                    )}
+                        <br />
+                        {blogArray}
+                        {imagesArray}
                 </content>
             )
         

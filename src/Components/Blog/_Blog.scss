@@ -19,5 +19,23 @@
         font-family: $font-family1;
         letter-spacing: .5px;
         line-height: 25px;
+
+        .contentful-title {
+            font-size: 1.4em;
+            @extend h1;
+            color: $text-white;
+            font-family: $font-family1;
+
+        }
+
+        .contentful-description {
+            @extend .contentful-title;
+            font-size: 1.2em;
+        }
+        
     }
+           
+        .contentful-image {
+            width: 100%;
+        }
 }
